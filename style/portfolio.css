@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+        
+}
+
+/* ! Primary Color */
+
+.text-primary-color{
+    color: #FD6E0A;
+}
+
+.dark1{
+    color: #181818;
+}
+
+.dark2{
+    color: #474747;
+}
+
+.dark3{
+    color: #757575;
+}
+
+/* ! Nav styles */
+
+.header{
+    background: url(../images/developer.png) no-repeat 2%, url(../images/header_bg.png) no-repeat right bottom;
+    background-color: #FFF8F3;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 230px;
+}
+
+.nav-logo{
+    font-size: 45px;
+    font-weight: 800px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0px 51px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: purple;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ! Banner styles */
+
+.banner{
+    display: flex;
+    margin: 0px 38px 0px 230px;
+    justify-content: space-between;
+}
+
+.banner-content{
+    width: 585px;
+}
+
+.text-gratings{
+    font-size: 45px;
+    font-weight: 600px;
+}
+
+.text-title{
+    font-size: 85px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.banner-text{
+    font-size: 18px;
+    margin: 80px 0px 30px 0px;
+}
+
+.contact-btn{
+    background: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.banner img{
+    width: 584px;
+}
+
+
